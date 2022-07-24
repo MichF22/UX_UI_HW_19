@@ -16,7 +16,6 @@ body {
   --ln: 1px solid #424242;
 }
 
-
 /* Header nav*/
 #header_nav {
   display: flex;
@@ -57,7 +56,7 @@ a {
 
 #intro {
   margin-top: 40px;
-  margin-bottom: 40px;;
+  margin-bottom: 40px;
   grid-column: span 12;
   font-family: 'Poppins';
   font-style: normal;
@@ -96,7 +95,6 @@ a {
 .about {
   background-color: transparent;
   color: #409488;
-  /* float: right; */
 }
 
 .about:hover {
@@ -112,28 +110,25 @@ a {
   border-style: double;
   border-width: 2px;
   color: #409488;
+  grid-column: span 12;
+}
+
+/* Hero section */
+.hero {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat (3, 1fr);
+  gap: 1rem;
+  /* border: var(--ln); */
 }
 
 #section_header {
   font-family: 'Inconsolata';
-  /* font-style: light; */
   font-size: 36px;
   color: #409488;
   margin-top: 2rem;
-}
-
-/* Projects */
-.hero {
-  height: 100%;
-  position: relative;
-  /* border: var(--ln); */
-  display: grid;
-  grid-template-columns:
-    repeat(12, 1fr);
-}
-
-.hero>* {
-  display: flex;
+  grid-column: span 12;
 }
 
 .hlinelist li {
@@ -143,21 +138,17 @@ a {
   font-size: 13px;
 }
 
-
 /* Left Section */
 .hero .left {
-  flex-direction: column;
-  grid-column: span 8;
-  /* border: var(--ln); */
-  justify-content: center;
-  align-items: left;
-  margin-right: 5%;
+  grid-row: 2;
+  grid-column: 1/9;
 }
 
 .coloured_container_1 {
   width: 100%;
   height: 70%;
   background-color: #FF9831;
+  display: flex;
 }
 
 #img1 {
@@ -165,34 +156,40 @@ a {
   padding-left: 15%;
   width: 85%;
   height: 80%;
+  /* background-image: url(../images/WIRES.png);
+  background-size: cover; */
+  align-items: center;
+  justify-content: center;
 }
-
 
 /* Right Section */
 .hero .right {
-  flex-direction: column;
-  grid-column: span 4;
+  grid-row: 2;
+  grid-column: 9/13;
   /* border: var(--ln); */
-  justify-content: center;
-  align-items: center;
 }
 
 .coloured_container_2 {
   width: 100%;
   height: 70%;
   background-color: #4FBAD1;
+  display: flex;
 }
 
 #img2 {
   padding-top: 30%;
   padding-left: 20%;
   padding-right: 10%;
+  padding-bottom: 30%;
   width: 90%;
-  height: 35rem;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .text_under_image {
   margin-top: 20px;
+  grid-row: 3;
 }
 
 #project_name {
@@ -204,7 +201,6 @@ a {
 .hlinelist {
   text-align: center;
 }
-
 
 /* Footer */
 .footer {
