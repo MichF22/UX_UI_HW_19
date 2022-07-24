@@ -6,27 +6,27 @@
   <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap" rel="stylesheet">
   <title>Portfolio</title>
   <div id="header_nav">
-    <a href="home">Home</a>
-    <a id="with_line" href="projects">Projects</a>
-    <a id="with_line" href="about">About</a>
-    <a id="with_line" href="contact">Contact</a>
+    <a href="#home">Home</a>
+    <a id="with_line" href="#projects">Projects</a>
+    <a id="with_line" href="#about">About</a>
+    <a id="with_line" href="#contact">Contact</a>
   </div>
 </header>
 
 <body>
   <div class="main_div">
 
-    <section class="start">
+    <section id="home" class="start">
       <h2 id="intro">Hello, I'm <span class="greenText">Michelle</span></h2>
       <p id="intro_p">I am a UX/UI designer living in Sydney.<br>I love to create innovative digital products that bring
         users joy and
         increase their overall product experience.</p>
-      <button class="button about" onclick="location='default.asp'">ABOUT &rarr;</button>
+      <button class="button about" onclick="location='#about'">ABOUT &rarr;</button>
     </section>
 
     <hr class="section_line">
 
-    <section class="hero">
+    <section id="projects" class="hero">
       <p id="section_header">Projects</p>
       <div class="left">
         <div class="coloured_container_1">
@@ -57,7 +57,7 @@
 
     <hr class="section_line">
 
-    <section class="aboutMe">
+    <section id="about" class="aboutMe">
       <p id="section_header">About</p>
       <div class="aboutMe_text">
         <h2 class="aboutMe_title">A little bit about myslef.</h2>
@@ -65,8 +65,17 @@
           I love to create innovative digital products that bring users joy and increase their overall product
           experience.</p>
       </div>
-      <div class="aboutMe_image"></div>
+      <div class="image_container">
+        <img class="aboutMe_image" src="./images/Image_me.jpg" alt="image of myself">
+      <!-- <div class="aboutMe_image"></div> -->
+      </div>
     </section>
+
+    <hr class="section_line">
+
+    <section id="contact" class="contactMe">
+      <p id="section_header">Contact</p>
+      </section>
 
     <div class="footer">
       <div class="inner_footer">
@@ -95,5 +104,5 @@
     </div>
   </div>
 </body>
-
+<script src="js/index.js"></script>
 </html>
