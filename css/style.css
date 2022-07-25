@@ -153,13 +153,15 @@ a {
   height: 70%;
   background-color: #FF9831;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #img1 {
-  padding-top: 15%;
-  padding-left: 15%;
-  width: 85%;
-  height: 80%;
+  /* padding-top: 15%;
+  padding-left: 15%; */
+  width: 80%;
+  /* height: 80%; */
   /* background-image: url(../images/WIRES.png);
   background-size: cover; */
   align-items: center;
@@ -178,6 +180,8 @@ a {
   height: 70%;
   background-color: #4FBAD1;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #img2 {
@@ -186,7 +190,7 @@ a {
   padding-right: 10%;
   padding-bottom: 30%;
   width: 90%;
-  height: 100%;
+  /* height: 100%; */
   align-items: center;
   justify-content: center;
 }
@@ -236,10 +240,14 @@ a {
 .image_container {
   background: #5C92D5;
   grid-column: span 6;
-  padding: 150px;
+  /* padding: 150px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .aboutMe_image {
-  height: 200px;
+  width: 80%;
+  /* height: 200px; */
   /* grid-column: span 6;
   background-image: url(../images/Image_me.jpg);
   background-size: cover; */
