@@ -214,6 +214,11 @@ a {
   gap: 1rem;
 }
 
+.aboutMe_content {
+  height: 400px;
+  grid-column: span 6;
+}
+
 .aboutMe_title {
   font-family: 'Poppins';
   font-style: normal;
@@ -223,8 +228,6 @@ a {
 }
 
 .aboutMe_text {
-  height: 100px;
-  grid-column: span 6;
   font-family: 'Inconsolata';
   font-size: 20px;
   color: black;
