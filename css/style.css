@@ -114,6 +114,8 @@ a {
   border-style: double;
   border-width: 2px;
   color: #409488;
+  background-color: #409488;
+  height: 4px;
   grid-column: span 12;
 }
 
@@ -124,6 +126,7 @@ a {
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat (3, 1fr);
   gap: 1rem;
+  align-content: start;
   /* border: var(--ln); */
 }
 
@@ -132,6 +135,7 @@ a {
   font-size: 36px;
   color: #409488;
   margin-top: 2rem;
+  margin-bottom: 4rem;
   grid-column: span 12;
 }
 
@@ -158,12 +162,7 @@ a {
 }
 
 #img1 {
-  /* padding-top: 15%;
-  padding-left: 15%; */
   width: 80%;
-  /* height: 80%; */
-  /* background-image: url(../images/WIRES.png);
-  background-size: cover; */
   align-items: center;
   justify-content: center;
 }
@@ -190,7 +189,6 @@ a {
   padding-right: 10%;
   padding-bottom: 30%;
   width: 90%;
-  /* height: 100%; */
   align-items: center;
   justify-content: center;
 }
@@ -216,6 +214,7 @@ a {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   gap: 1rem;
+  align-content: start;
 }
 
 .aboutMe_content {
@@ -240,18 +239,18 @@ a {
 .image_container {
   background: #5C92D5;
   grid-column: span 6;
-  /* padding: 150px; */
+  padding: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .aboutMe_image {
-  width: 80%;
-  /* height: 200px; */
-  /* grid-column: span 6;
   background-image: url(../images/Image_me.jpg);
-  background-size: cover; */
-  border-radius: 20%;
+  width: 80%;
+  aspect-ratio: 1 / 1;
+  background-size: cover;
+  border-radius: 50%;
+  background-position: 40% 50%;
 }
 
 .contactMe {
