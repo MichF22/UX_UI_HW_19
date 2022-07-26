@@ -220,6 +220,9 @@ a {
 .aboutMe_content {
   height: 400px;
   grid-column: span 6;
+  display: flex;
+ justify-content: center;
+  flex-direction: column;
 }
 
 .aboutMe_title {
