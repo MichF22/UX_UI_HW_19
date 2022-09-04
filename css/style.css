@@ -52,6 +52,10 @@ ul {
   margin-left: 40px;
 }
 
+.doubletab {
+  margin-left: 125px;
+}
+
 @media only screen and (max-width: 1400px) {
   :root {
     line-height: 2rem;
@@ -309,12 +313,37 @@ a {
   background-position: 40% 50%;
 }
 
+/* Contact Me */
 .contactMe {
-  height: 720px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   gap: 1rem;
 }
+
+.contactMe_content1 {
+  grid-column: 2 / 6;
+  margin-bottom: 200px;
+}
+
+.contactMe_content2 {
+  grid-column: 7 / 11;
+  margin-bottom: 200px;
+}
+
+.contactMe_title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 24px;
+  color: black;
+  margin-bottom: 2rem;
+}
+
+.contactMe_text {
+  font-family: 'Inconsolata';
+  font-size: 20px;
+  color: black;
+}
+/* Contact Me END */
 
 /* Footer */
 .footer {
