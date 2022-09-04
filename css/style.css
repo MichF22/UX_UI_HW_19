@@ -336,6 +336,16 @@ a {
   font-size: 24px;
   color: black;
   margin-bottom: 2rem;
+  grid-column: 2 / 6;
+}
+
+.contactMe_title2 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 20px;
+  color: black;
+  margin-bottom: 2rem;
+  grid-column: 2 / 6;
 }
 
 .contactMe_text {
