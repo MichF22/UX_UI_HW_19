@@ -353,6 +353,7 @@ a {
   font-size: 20px;
   color: black;
 }
+
 /* Contact Me END */
 
 /* Footer */
@@ -615,3 +616,117 @@ a {
 }
 
 /* PROJECTS Grids END */
+
+/* WIRES Images */
+
+.heuristic1 {
+  grid-column: 8 / 12;
+  background-image: url("../images/heuristic_1.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 200px;
+}
+
+.heuristic2 {
+  grid-column: 2 / 7;
+  background-image: url("../images/heuristic_2.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 200px;
+}
+
+.competitor {
+  grid-column: 8 / 12;
+  background-image: url("../images/competitor.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 200px;
+}
+
+.persona {
+  grid-column: 8 / 12;
+  background-image: url("../images/User\ Journey.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 200px;
+}
+
+.feature {
+  grid-column: 8 / 12;
+  background-image: url("../images/ideate.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 200px;
+}
+
+.card {
+  grid-column: 8 / 12;
+  background-image: url("../images/card.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 200px;
+}
+
+.lofi1 {
+  grid-column: 2 / 5;
+  background-image: url("../images/LoFi.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 200px;
+}
+
+.ab1 {
+  grid-column: 8 / 10;
+  background-image: url("../images/AB_1.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 200px;
+}
+
+.ab2 {
+  grid-column: 11 / 13;
+  background-image: url("../images/AB_2.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 200px;
+}
+
+.midfi1 {
+  grid-column: 2 / 7;
+  background-image: url("../images/MidFi_1.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 200px;
+}
+
+.midfi2 {
+  grid-column: 8 / 12;
+  background-image: url("../images/MidFi_2.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 200px;
+}
+
+.style1 {
+  grid-column: 2 / 7;
+  background-image: url("../images/UI\ Style\ Guide\ -\ \ 1.\ Logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 200px;
+}
+
+.style2 {
+  grid-column: 8 / 12;
+  background-image: url("../images/UI\ Style\ Guide\ -\ \ 2.\ Colors.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 200px;
+}
+
+.changes {
+  grid-column: 5 / 13;
+  background-image: url("../images/changes.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 200px;
+}
