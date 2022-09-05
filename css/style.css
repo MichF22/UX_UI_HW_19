@@ -266,7 +266,7 @@ a {
 
 /* About Me */
 .aboutMe {
-  height: 720px;
+  height: 900px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   gap: 1rem;
@@ -274,7 +274,7 @@ a {
 }
 
 .aboutMe_content {
-  height: 400px;
+  height: 600px;
   grid-column: span 6;
   display: flex;
   justify-content: center;
