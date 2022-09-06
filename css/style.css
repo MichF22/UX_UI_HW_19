@@ -620,23 +620,23 @@ a {
 /* WIRES Images */
 
 .heuristic1 {
-  grid-column: 8 / 12;
+  grid-column: 8 / 11;
   background-image: url("../images/heuristic_1.jpg");
   background-size: contain;
   background-repeat: no-repeat;
-  min-height: 200px;
+  min-height: 300px;
 }
 
 .heuristic2 {
-  grid-column: 2 / 7;
+  grid-column: 11 / 13;
   background-image: url("../images/heuristic_2.jpg");
   background-size: contain;
   background-repeat: no-repeat;
-  min-height: 200px;
+  min-height: 20px;
 }
 
 .competitor {
-  grid-column: 8 / 12;
+  grid-column: 8 / 13;
   background-image: url("../images/competitor.jpg");
   background-size: contain;
   background-repeat: no-repeat;
@@ -644,7 +644,7 @@ a {
 }
 
 .persona {
-  grid-column: 8 / 12;
+  grid-column: 8 / 13;
   background-image: url("../images/User\ Journey.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -652,7 +652,7 @@ a {
 }
 
 .feature {
-  grid-column: 8 / 12;
+  grid-column: 8 / 13;
   background-image: url("../images/ideate.jpg");
   background-size: contain;
   background-repeat: no-repeat;
@@ -660,7 +660,7 @@ a {
 }
 
 .card {
-  grid-column: 8 / 12;
+  grid-column: 8 / 13;
   background-image: url("../images/card.jpg");
   background-size: contain;
   background-repeat: no-repeat;
@@ -668,11 +668,27 @@ a {
 }
 
 .lofi1 {
-  grid-column: 2 / 5;
+  grid-column: 3 / 6;
   background-image: url("../images/LoFi.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   min-height: 200px;
+}
+
+.text_left {
+  grid-column: 3 / 6;
+  font-family: 'Inconsolata', Helvetica, monospace;
+  font-size: 20px;
+  color: black;
+  margin-top: 10px;
+}
+
+.text_right {
+  grid-column: 8 / 10;
+  font-family: 'Inconsolata', Helvetica, monospace;
+  font-size: 20px;
+  color: black;
+  margin-top: 10px;
 }
 
 .ab1 {
@@ -684,7 +700,7 @@ a {
 }
 
 .ab2 {
-  grid-column: 11 / 13;
+  grid-column: 10 / 13;
   background-image: url("../images/AB_2.jpg");
   background-size: contain;
   background-repeat: no-repeat;
@@ -692,7 +708,7 @@ a {
 }
 
 .midfi1 {
-  grid-column: 2 / 7;
+  grid-column: 3 / 6;
   background-image: url("../images/MidFi_1.jpg");
   background-size: contain;
   background-repeat: no-repeat;
@@ -708,7 +724,7 @@ a {
 }
 
 .style1 {
-  grid-column: 2 / 7;
+  grid-column: 3 / 7;
   background-image: url("../images/UI\ Style\ Guide\ -\ \ 1.\ Logo.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -716,11 +732,27 @@ a {
 }
 
 .style2 {
-  grid-column: 8 / 12;
+  grid-column: 6 / 10;
   background-image: url("../images/UI\ Style\ Guide\ -\ \ 2.\ Colors.png");
   background-size: contain;
   background-repeat: no-repeat;
   min-height: 200px;
+}
+
+.text_style1 {
+  grid-column: 3 / 7;
+  font-family: 'Inconsolata', Helvetica, monospace;
+  font-size: 20px;
+  color: black;
+  margin-top: 10px;
+}
+
+.text_style2 {
+  grid-column: 4 / 6;
+  font-family: 'Inconsolata', Helvetica, monospace;
+  font-size: 20px;
+  color: black;
+  margin-top: 10px;
 }
 
 .changes {
@@ -762,3 +794,36 @@ a {
   background-repeat: no-repeat;
   min-height: 200px;
 }
+
+.iterate1 {
+  grid-column: 5 / 7;
+  background-image: url("../images/test_1.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 200px;
+}
+
+.iterate2 {
+  grid-column: 8 / 10;
+  background-image: url("../images/test_2.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 200px;
+}
+
+.iterate3 {
+  grid-column: 5 / 7;
+  background-image: url("../images/test_3.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 200px;
+}
+
+.iterate4 {
+  grid-column: 8 / 10;
+  background-image: url("../images/test_4.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 200px;
+}
+
