@@ -506,10 +506,6 @@ a {
   margin-bottom: 2rem;
 }
 
-.statement {
-  color: #409488;
-}
-
 .p-info {
   margin-bottom: 2rem;
 }
@@ -605,7 +601,7 @@ a {
 }
 
 .overview3 {
-  grid-column: 8 / 10;
+  grid-column: 8 / 12;
   margin-bottom: 50px;
 }
 
@@ -833,7 +829,7 @@ a {
 
 /* IMPACT Hero START */
 
-#hero_impact{
+#hero_impact {
   background-color: #4FBAD1;
   display: flex;
   justify-content: center;
@@ -894,3 +890,16 @@ a {
   min-height: 200px;
 }
 
+.statement_wires {
+  grid-column: 2 / 13;
+  background-color: #FCEBD9;
+  padding: 40 40 40 40;
+  color: #409488;
+}
+
+.statement_impact {
+  grid-column: 2 / 13;
+  background-color: #E8FBFF;
+  padding: 40 40 40 40;
+  color: #409488;
+}
