@@ -506,6 +506,10 @@ a {
   margin-bottom: 2rem;
 }
 
+.statement {
+  color: #409488;
+}
+
 .p-info {
   margin-bottom: 2rem;
 }
@@ -889,3 +893,4 @@ a {
   background-repeat: no-repeat;
   min-height: 200px;
 }
+
