@@ -867,39 +867,83 @@ a {
 }
 
 .impact_heuristic {
-  grid-column: 9 / 12;
+  grid-column: 4 / 10;
   background-image: url("../images/impact_heuristic.png");
   background-size: contain;
   background-repeat: no-repeat;
-  min-height: 300px;
+  min-height: 800px;
 }
 
 .impact_competitor {
-  grid-column: 8 / 13;
+  grid-column: 4 / 10;
   background-image: url("../images/impact_comp_analysis.png");
   background-size: contain;
   background-repeat: no-repeat;
-  min-height: 200px;
+  min-height: 400px;
 }
 
 .impact_persona {
-  grid-column: 8 / 13;
-  background-image: url("../images/impact_user_persona.png");
+  grid-column: 4 / 10;
+  background-image: url("../images/impact_user_persona_2.jpeg");
   background-size: contain;
   background-repeat: no-repeat;
-  min-height: 200px;
+  min-height: 500px;
 }
 
 .statement_wires {
   grid-column: 2 / 13;
   background-color: #FCEBD9;
   padding: 40 40 40 40;
-  color: #409488;
+  color: #1b3c37;
 }
 
 .statement_impact {
   grid-column: 2 / 13;
   background-color: #E8FBFF;
   padding: 40 40 40 40;
-  color: #409488;
+  color: #1b3c37;
+}
+
+.impact_ia {
+  grid-column: 4 / 10;
+  background-image: url("../images/impact_ia.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 400px;
+}
+
+.impact_userflow {
+  grid-column: 4 / 10;
+  background-image: url("../images/impact_userflow.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  margin-top: 20px;
+}
+
+.impact_styleguide {
+  grid-column: 4 / 10;
+  background-image: url("../images/impact_style_guide.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  margin-top: 20px;
+}
+
+.impact_web_lofi {
+  grid-column: 2 / 6;
+  background-image: url("../images/impact_web_lofi.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  margin-top: 40px;
+}
+
+.impact_web_lofi_2 {
+  grid-column: 7 / 11;
+  background-image: url("../images/impact_web_lofi_2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 800px;
+  margin-top: 40px;
 }
