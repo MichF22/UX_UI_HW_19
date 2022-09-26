@@ -963,7 +963,7 @@ a {
   background-image: url("../images/impact_home_lofi_2.png");
   background-size: contain;
   background-repeat: no-repeat;
-  min-height: 800px;
+  min-height: 500px;
   margin-top: 40px;
 }
 
@@ -982,7 +982,7 @@ a {
   background-image: url("../images/impact_contact_lofi_2.png");
   background-size: contain;
   background-repeat: no-repeat;
-  min-height: 800px;
+  min-height: 500px;
   margin-top: 40px;
 }
 
@@ -1137,3 +1137,113 @@ a {
   min-height: 400px;
   margin-top: 40px;
 }
+
+.impact_hifi_1 {
+  grid-column: 1 / 4;
+  background-image: url("../images/impact_hifi_1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  margin-top: 40px;
+}
+
+.impact_hifi_2 {
+  grid-column: 4 / 7;
+  background-image: url("../images/impact_hifi_2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  margin-top: 40px;
+}
+
+.impact_hifi_3 {
+  grid-column: 7 / 10;
+  background-image: url("../images/impact_hifi_3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  margin-top: 40px;
+}
+
+.impact_hifi_4 {
+  grid-column: 10 / 13;
+  background-image: url("../images/impact_hifi_4.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  margin-top: 40px;
+}
+
+.impact_hifi_5 {
+  grid-column: 1 / 4;
+  background-image: url("../images/impact_hifi_5.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  margin-top: 40px;
+}
+
+.impact_hifi_6 {
+  grid-column: 4 / 7;
+  background-image: url("../images/impact_hifi_6.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  margin-top: 40px;
+}
+
+.impact_hifi_7 {
+  grid-column: 7 / 10;
+  background-image: url("../images/impact_hifi_7.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  margin-top: 40px;
+}
+
+.impact_hifi_8 {
+  grid-column: 10 / 13;
+  background-image: url("../images/impact_hifi_8.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  margin-top: 40px;
+}
+
+.impact_hifi_9 {
+  grid-column: 1 / 4;
+  background-image: url("../images/impact_hifi_9.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  margin-top: 40px;
+}
+
+.impact_hifi_10 {
+  grid-column: 4 / 7;
+  background-image: url("../images/impact_hifi_10.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  margin-top: 40px;
+}
+
+.impact_hifi_11 {
+  grid-column: 7 / 10;
+  background-image: url("../images/impact_hifi_11.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  margin-top: 40px;
+}
+
+.impact_hifi_12 {
+  grid-column: 10 / 13;
+  background-image: url("../images/impact_hifi_12.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  margin-top: 40px;
+}
+
+
