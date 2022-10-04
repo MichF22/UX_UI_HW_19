@@ -202,7 +202,7 @@ a {
   font-size: 20px;
 }
 
-/* Left Section */
+/* Left section */
 .hero .left {
   grid-row: 2;
   grid-column: 1/9;
@@ -223,7 +223,7 @@ a {
   justify-content: center;
 }
 
-/* Right Section */
+/* Right section */
 .hero .right {
   grid-row: 2;
   grid-column: 9/13;
@@ -264,7 +264,7 @@ a {
   text-align: center;
 }
 
-/* About Me */
+/* About me */
 .aboutMe {
   height: 900px;
   display: grid;
@@ -313,7 +313,7 @@ a {
   background-position: 40% 50%;
 }
 
-/* Contact Me */
+/* Contact me */
 .contactMe {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -353,8 +353,6 @@ a {
   font-size: 20px;
   color: black;
 }
-
-/* Contact Me END */
 
 /* Footer */
 .footer {
@@ -442,7 +440,7 @@ a {
   margin-bottom: 30px;
 }
 
-/* PROJECTS Hero START */
+/* PROJECTS Hero */
 
 #hero {
   background-color: #FF9831;
@@ -483,9 +481,7 @@ a {
   }
 }
 
-/* PROJECTS Hero END */
-
-/* PROJECTS Grids START */
+/* PROJECTS Grids */
 
 #grid {
   display: grid;
@@ -614,8 +610,6 @@ a {
   margin-bottom: 2rem;
   grid-column: span 12;
 }
-
-/* PROJECTS Grids END */
 
 /* WIRES Images */
 
@@ -862,7 +856,7 @@ a {
   margin-top: 10px;
 }
 
-/* IMPACT Hero START */
+/* IMPACT Hero */
 
 #hero_impact {
   background-color: #4FBAD1;
